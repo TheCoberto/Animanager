@@ -1,0 +1,11 @@
+C:\Repos\Animanager\Animanager.UI\bin\Debug\Animanager.exe.config
+C:\Repos\Animanager\Animanager.UI\bin\Debug\Animanager.exe
+C:\Repos\Animanager\Animanager.UI\bin\Debug\Animanager.pdb
+C:\Repos\Animanager\Animanager.UI\bin\Debug\Animanager.Models.dll
+C:\Repos\Animanager\Animanager.UI\bin\Debug\Animanager.Models.pdb
+C:\Repos\Animanager\Animanager.UI\obj\Debug\Animanager.UI.csproj.AssemblyReference.cache
+C:\Repos\Animanager\Animanager.UI\obj\Debug\Animanager.UI.csproj.SuggestedBindingRedirects.cache
+C:\Repos\Animanager\Animanager.UI\obj\Debug\Animanager.UI.csproj.CoreCompileInputs.cache
+C:\Repos\Animanager\Animanager.UI\obj\Debug\Animanager.UI.csproj.CopyComplete
+C:\Repos\Animanager\Animanager.UI\obj\Debug\Animanager.exe
+C:\Repos\Animanager\Animanager.UI\obj\Debug\Animanager.pdb

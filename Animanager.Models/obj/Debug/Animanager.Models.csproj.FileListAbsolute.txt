@@ -1,0 +1,6 @@
+C:\Repos\Animanager\Animanager.Models\bin\Debug\Animanager.Models.dll
+C:\Repos\Animanager\Animanager.Models\bin\Debug\Animanager.Models.pdb
+C:\Repos\Animanager\Animanager.Models\obj\Debug\Animanager.Models.csproj.AssemblyReference.cache
+C:\Repos\Animanager\Animanager.Models\obj\Debug\Animanager.Models.csproj.CoreCompileInputs.cache
+C:\Repos\Animanager\Animanager.Models\obj\Debug\Animanager.Models.dll
+C:\Repos\Animanager\Animanager.Models\obj\Debug\Animanager.Models.pdb
