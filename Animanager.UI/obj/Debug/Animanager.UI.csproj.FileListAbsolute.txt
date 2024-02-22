@@ -9,3 +9,13 @@ C:\Repos\Animanager\Animanager.UI\obj\Debug\Animanager.UI.csproj.CoreCompileInpu
 C:\Repos\Animanager\Animanager.UI\obj\Debug\Animanager.UI.csproj.CopyComplete
 C:\Repos\Animanager\Animanager.UI\obj\Debug\Animanager.exe
 C:\Repos\Animanager\Animanager.UI\obj\Debug\Animanager.pdb
+e:\source_wkelly\repos\Animanager\Animanager.UI\bin\Debug\Animanager.exe.config
+e:\source_wkelly\repos\Animanager\Animanager.UI\bin\Debug\Animanager.exe
+e:\source_wkelly\repos\Animanager\Animanager.UI\bin\Debug\Animanager.pdb
+e:\source_wkelly\repos\Animanager\Animanager.UI\bin\Debug\Animanager.Models.dll
+e:\source_wkelly\repos\Animanager\Animanager.UI\bin\Debug\Animanager.Models.pdb
+e:\source_wkelly\repos\Animanager\Animanager.UI\obj\Debug\Animanager.UI.csproj.AssemblyReference.cache
+e:\source_wkelly\repos\Animanager\Animanager.UI\obj\Debug\Animanager.UI.csproj.CoreCompileInputs.cache
+e:\source_wkelly\repos\Animanager\Animanager.UI\obj\Debug\Animanager.UI.csproj.CopyComplete
+e:\source_wkelly\repos\Animanager\Animanager.UI\obj\Debug\Animanager.exe
+e:\source_wkelly\repos\Animanager\Animanager.UI\obj\Debug\Animanager.pdb
