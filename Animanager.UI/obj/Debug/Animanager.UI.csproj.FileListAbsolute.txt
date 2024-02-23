@@ -19,3 +19,15 @@ e:\source_wkelly\repos\Animanager\Animanager.UI\obj\Debug\Animanager.UI.csproj.C
 e:\source_wkelly\repos\Animanager\Animanager.UI\obj\Debug\Animanager.UI.csproj.CopyComplete
 e:\source_wkelly\repos\Animanager\Animanager.UI\obj\Debug\Animanager.exe
 e:\source_wkelly\repos\Animanager\Animanager.UI\obj\Debug\Animanager.pdb
+C:\Users\cobyk\Source\Repos\Animanager\Animanager.UI\bin\Debug\Animanager.exe.config
+C:\Users\cobyk\Source\Repos\Animanager\Animanager.UI\bin\Debug\Animanager.exe
+C:\Users\cobyk\Source\Repos\Animanager\Animanager.UI\bin\Debug\Animanager.pdb
+C:\Users\cobyk\Source\Repos\Animanager\Animanager.UI\bin\Debug\Animanager.Models.dll
+C:\Users\cobyk\Source\Repos\Animanager\Animanager.UI\bin\Debug\Animanager.Models.pdb
+C:\Users\cobyk\Source\Repos\Animanager\Animanager.UI\obj\Debug\Animanager.UI.csproj.AssemblyReference.cache
+C:\Users\cobyk\Source\Repos\Animanager\Animanager.UI\obj\Debug\Animanager.UI.csproj.CoreCompileInputs.cache
+C:\Users\cobyk\Source\Repos\Animanager\Animanager.UI\obj\Debug\Animanag.43DBE01E.Up2Date
+C:\Users\cobyk\Source\Repos\Animanager\Animanager.UI\obj\Debug\Animanager.exe
+C:\Users\cobyk\Source\Repos\Animanager\Animanager.UI\obj\Debug\Animanager.pdb
+C:\Users\cobyk\Source\Repos\Animanager\Animanager.UI\bin\Debug\Animanager.Repository.dll
+C:\Users\cobyk\Source\Repos\Animanager\Animanager.UI\bin\Debug\Animanager.Repository.pdb

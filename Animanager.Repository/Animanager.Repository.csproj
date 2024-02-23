@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{53F0B400-EB13-40C7-897B-251A04CF38CD}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>Animanager</RootNamespace>
-    <AssemblyName>Animanager</AssemblyName>
+    <ProjectGuid>{28D8329D-2F22-42C9-97DC-3ADF5B0BC33B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Animanager.Repository</RootNamespace>
+    <AssemblyName>Animanager.Repository</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,21 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controller.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
+    <Compile Include="Repository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Animanager.Models\Animanager.Models.csproj">
-      <Project>{d1118ede-e4ef-44f4-9fa8-9cd4a5cf772f}</Project>
+      <Project>{D1118EDE-E4EF-44F4-9FA8-9CD4A5CF772F}</Project>
       <Name>Animanager.Models</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Animanager.Repository\Animanager.Repository.csproj">
-      <Project>{28d8329d-2f22-42c9-97dc-3adf5b0bc33b}</Project>
-      <Name>Animanager.Repository</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

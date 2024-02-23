@@ -10,3 +10,9 @@ e:\source_wkelly\repos\Animanager\Animanager.Models\obj\Debug\Animanager.Models.
 e:\source_wkelly\repos\Animanager\Animanager.Models\obj\Debug\Animanager.Models.csproj.CoreCompileInputs.cache
 e:\source_wkelly\repos\Animanager\Animanager.Models\obj\Debug\Animanager.Models.dll
 e:\source_wkelly\repos\Animanager\Animanager.Models\obj\Debug\Animanager.Models.pdb
+C:\Users\cobyk\Source\Repos\Animanager\Animanager.Models\bin\Debug\Animanager.Models.dll
+C:\Users\cobyk\Source\Repos\Animanager\Animanager.Models\bin\Debug\Animanager.Models.pdb
+C:\Users\cobyk\Source\Repos\Animanager\Animanager.Models\obj\Debug\Animanager.Models.csproj.AssemblyReference.cache
+C:\Users\cobyk\Source\Repos\Animanager\Animanager.Models\obj\Debug\Animanager.Models.csproj.CoreCompileInputs.cache
+C:\Users\cobyk\Source\Repos\Animanager\Animanager.Models\obj\Debug\Animanager.Models.dll
+C:\Users\cobyk\Source\Repos\Animanager\Animanager.Models\obj\Debug\Animanager.Models.pdb

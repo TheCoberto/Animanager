@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animanager.UI", "Animanager
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animanager.Models", "..\Animanager.Models\Animanager.Models.csproj", "{D1118EDE-E4EF-44F4-9FA8-9CD4A5CF772F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animanager.Repository", "..\Animanager.Repository\Animanager.Repository.csproj", "{28D8329D-2F22-42C9-97DC-3ADF5B0BC33B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D1118EDE-E4EF-44F4-9FA8-9CD4A5CF772F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1118EDE-E4EF-44F4-9FA8-9CD4A5CF772F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1118EDE-E4EF-44F4-9FA8-9CD4A5CF772F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28D8329D-2F22-42C9-97DC-3ADF5B0BC33B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28D8329D-2F22-42C9-97DC-3ADF5B0BC33B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28D8329D-2F22-42C9-97DC-3ADF5B0BC33B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28D8329D-2F22-42C9-97DC-3ADF5B0BC33B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

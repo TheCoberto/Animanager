@@ -1,0 +1,9 @@
+C:\Users\cobyk\Source\Repos\Animanager\Animanager.Repository\bin\Debug\Animanager.Repository.dll
+C:\Users\cobyk\Source\Repos\Animanager\Animanager.Repository\bin\Debug\Animanager.Repository.pdb
+C:\Users\cobyk\Source\Repos\Animanager\Animanager.Repository\bin\Debug\Animanager.Models.dll
+C:\Users\cobyk\Source\Repos\Animanager\Animanager.Repository\bin\Debug\Animanager.Models.pdb
+C:\Users\cobyk\Source\Repos\Animanager\Animanager.Repository\obj\Debug\Animanager.Repository.csproj.AssemblyReference.cache
+C:\Users\cobyk\Source\Repos\Animanager\Animanager.Repository\obj\Debug\Animanager.Repository.csproj.CoreCompileInputs.cache
+C:\Users\cobyk\Source\Repos\Animanager\Animanager.Repository\obj\Debug\Animanag.73F3AE51.Up2Date
+C:\Users\cobyk\Source\Repos\Animanager\Animanager.Repository\obj\Debug\Animanager.Repository.dll
+C:\Users\cobyk\Source\Repos\Animanager\Animanager.Repository\obj\Debug\Animanager.Repository.pdb

@@ -1,14 +1,15 @@
 ﻿using Animanager.Models;
+using Animanager.Repository;
 using System;
 
 namespace Animanager.UI
 {
     public class Controller
     {
-        Repository repo;
+        AnimalRepository repo;
         public Controller()
         {
-            repo = new Repository();
+            repo = new AnimalRepository();
         }
 
         public void Start()
@@ -17,9 +18,9 @@ namespace Animanager.UI
             {
                 DisplayMenu();
 
-                int.TryParse(Console.ReadLine(), out var result);
+                int.TryParse(Console.ReadLine(), out var mainMenuSelection);
 
-                switch (result)
+                switch (mainMenuSelection)
                 {
                     case 1:
                         Create();
@@ -46,12 +47,33 @@ namespace Animanager.UI
         {
             Console.Clear();
             Console.WriteLine("Welcome to Animanager. Please select from the list of options.");
+            Console.WriteLine();
             Console.WriteLine("1. Create");
             Console.WriteLine("2. Read All");
             Console.WriteLine("3. Read By ID");
             Console.WriteLine("4. Update");
             Console.WriteLine("5. Delete");
+        }
 
+        public void DisplayAnimals()
+        {
+            Console.Clear();
+            var animals = repo.ReadAll();
+
+            foreach (var animal in animals)
+            {
+                Console.WriteLine("{0}. {1} {2}", animal.Id, animal.Color, animal.Name);
+                Console.WriteLine();
+            }
+
+            if (animals.Count == 0)
+            {
+                Console.WriteLine("There are currently no animals to display.");
+                Console.WriteLine();
+            }
+
+            Console.WriteLine("Enter any key to continue.");
+            Console.ReadLine();
         }
 
         public void Create()
@@ -63,22 +85,7 @@ namespace Animanager.UI
         }
         public void ReadAll()
         {
-            Console.Clear();
-            var animals = repo.ReadAll();
-
-            foreach (var animal in animals)
-            {
-                Console.WriteLine(animal.Id + ". " + animal.Name);
-                Console.WriteLine();
-            }
-
-            if (animals.Count == 0)
-            {
-                Console.WriteLine("There are currently no animals to display.");
-            }
-
-            Console.WriteLine("Enter any key to continue.");
-            Console.ReadLine();
+            DisplayAnimals();
         }
 
         private void ReadById()
@@ -89,7 +96,7 @@ namespace Animanager.UI
 
             Console.Clear();
 
-            var animal = repo.ReadById(id);
+            Animal animal = repo.ReadById(id);
 
             if (animal != null)
             {
@@ -107,11 +114,82 @@ namespace Animanager.UI
 
         public void Update()
         {
-            Repository.Update();
+            var animals = repo.ReadAll();
+            Animal updatedAnimal = new Animal();
+            bool passedValidation = false;
+
+            if (animals.Count == 0)
+            {
+                Console.WriteLine("There are currently no animals to display.");
+            }
+            else
+            {
+                Console.WriteLine("Enter the ID of the animal you want to update.");
+                int.TryParse(Console.ReadLine(), out int id);
+                var animal = repo.ReadById(id);
+                if (animal != null)
+                {
+                    while (!passedValidation)
+                    {
+                        Console.WriteLine(animal.Id + ". " + animal.Name);
+                        Console.WriteLine();
+                        Console.WriteLine("Choose a property to update.");
+                        Console.WriteLine();
+                        Console.WriteLine("1. Name");
+                        Console.WriteLine("2. Color");
+
+                        passedValidation = int.TryParse(Console.ReadLine(), out int updateMenuSelection);
+                        switch (updateMenuSelection)
+                        {
+                            case 1:
+                                updatedAnimal = UpdateName(animal);
+                                break;
+                            case 2:
+                                updatedAnimal = UpdateColor(animal);
+                                break;
+                        }
+
+                        if (updateMenuSelection != 1 && updateMenuSelection != 2)
+                        {
+                            passedValidation = false;
+                        }
+                    }
+
+                    repo.Update(updatedAnimal);
+                }
+            }
         }
+
+        private Animal UpdateName(Animal animal)
+        {
+            Console.WriteLine("What is the new name?");
+
+            var newName = Console.ReadLine();
+
+            animal.Name = newName;
+
+            return animal;
+        }
+
+        private Animal UpdateColor(Animal animal)
+        {
+            Console.WriteLine("What is the new color?");
+
+            var newColor = Console.ReadLine();
+
+            animal.Color = newColor;
+
+            return animal;
+        }
+
         public void Delete()
         {
-            Repository.Delete();
+            Console.WriteLine("Enter the ID of the animal you want to delete.");
+            bool passedValidation = int.TryParse(Console.ReadLine(), out var id);
+            var animal = repo.ReadById(id);
+
+            if (animal != null)
+                repo.Delete(animal);
         }
     }
 }

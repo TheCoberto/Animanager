@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using Animanager.Models;
 
-namespace Animanager.UI
+namespace Animanager.Repository
 {
-    public class Repository
+    public class AnimalRepository
     {
         public List<Animal> animals;
 
-        public Repository() 
+        public AnimalRepository() 
         {
             animals = new List<Animal>();
         }
@@ -30,14 +30,16 @@ namespace Animanager.UI
             return animals.FirstOrDefault(a => a.Id == id);
         }
 
-        internal static void Update()
+        public void Update(Animal newAnimal)
         {
-            throw new NotImplementedException();
+            Animal oldAnimal = animals.FirstOrDefault(x => x.Id == newAnimal.Id);
+            oldAnimal.Name = newAnimal.Name;
+            oldAnimal.Color = newAnimal.Color;
         }
 
-        internal static void Delete()
+        public void Delete(Animal animal)
         {
-            throw new NotImplementedException();
+            animals.Remove(animal);
         }
     }
 }

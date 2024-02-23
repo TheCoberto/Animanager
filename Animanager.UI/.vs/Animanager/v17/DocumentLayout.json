@@ -1,0 +1,82 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cobyk\\source\\repos\\Animanager\\Animanager.UI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{53F0B400-EB13-40C7-897B-251A04CF38CD}|Animanager.UI.csproj|c:\\users\\cobyk\\source\\repos\\animanager\\animanager.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53F0B400-EB13-40C7-897B-251A04CF38CD}|Animanager.UI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53F0B400-EB13-40C7-897B-251A04CF38CD}|Animanager.UI.csproj|C:\\Users\\cobyk\\source\\repos\\Animanager\\Animanager.UI\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53F0B400-EB13-40C7-897B-251A04CF38CD}|Animanager.UI.csproj|solutionrelative:controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D8329D-2F22-42C9-97DC-3ADF5B0BC33B}|..\\Animanager.Repository\\Animanager.Repository.csproj|c:\\users\\cobyk\\source\\repos\\animanager\\animanager.repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\cobyk\\source\\repos\\Animanager\\Animanager.Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "..\\Animanager.Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\cobyk\\source\\repos\\Animanager\\Animanager.Repository\\Repository.cs",
+              "RelativeToolTip": "..\\Animanager.Repository\\Repository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T03:14:27.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cobyk\\source\\repos\\Animanager\\Animanager.UI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\cobyk\\source\\repos\\Animanager\\Animanager.UI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T01:15:15.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Controller.cs",
+              "DocumentMoniker": "C:\\Users\\cobyk\\source\\repos\\Animanager\\Animanager.UI\\Controller.cs",
+              "RelativeDocumentMoniker": "Controller.cs",
+              "ToolTip": "C:\\Users\\cobyk\\source\\repos\\Animanager\\Animanager.UI\\Controller.cs",
+              "RelativeToolTip": "Controller.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAApwLgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T00:37:36.679Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
